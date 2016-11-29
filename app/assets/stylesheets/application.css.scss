@@ -16,6 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
@@ -32,6 +34,7 @@ h1, h2, h3 {
   border:none;
 }
 
+// navbar styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color:white;
@@ -41,6 +44,7 @@ h1, h2, h3 {
   }
 }
 
+// Homepage styles
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
